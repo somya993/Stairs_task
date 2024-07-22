@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(225, 219, 219);
+    color: black;
+  }
+  
+  .header .logo {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .header nav ul {
+    padding-right: 10px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  

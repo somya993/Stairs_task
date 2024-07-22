@@ -1,0 +1,33 @@
+.flash-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff69b4; 
+  color: #ffffff; 
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  transition: opacity 1s ease-in-out; /* Fading transition */
+  z-index: 1000;
+}
+
+.flash-message svg {
+  margin-right: 10px;
+}
+
+.flash-message.hide {
+  opacity: 0;
+}
+
+.flash-message svg {
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  fill: whitesmoke; /* Gold color for the coin */
+  stroke: whitesmoke;
+  stroke-width: 0.5; /* Reduce stroke width */
+}

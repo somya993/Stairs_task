@@ -1,0 +1,37 @@
+.credits-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .credits-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .spend-credits ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .spend-credits li {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+.credits-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.credits-page h2 {
+  margin-bottom: 20px;
+}
+
+.spend-credits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.spend-credits li {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+  
